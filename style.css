@@ -1,0 +1,79 @@
+body{
+    margin:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+font-family: "Nanum Myeongjo", serif;
+  font-weight: 200;
+  font-style: normal;
+background-color: rgb(204, 212, 220);
+}
+
+.container{
+    background-color: rgb(126, 140, 152);
+    width: 50%;
+    height: 50%;
+    border: 1px solid rgba(255, 255, 255, 0.788);
+    border-radius:.4em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3em;
+}
+h2{
+    font-size: 4em;
+    margin: 0;
+}
+input{
+    width: 30%;
+    padding: 1em;
+    border-radius: .3em;
+    border: none;
+}
+button{
+    background-color: rgba(0, 0, 0, 0.364);
+    width: 20%;
+    padding: .3em;
+    cursor: pointer;
+    border-radius: 1em;
+    border: 1px solid rgba(255, 255, 255, 0.483);
+    color: white;
+}
+
+#result{
+    background-color: darkblue;
+    color: white;
+}
+
+.child{
+    background-color: black;
+    min-width: 30%;
+    min-height: 10%;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+    gap: 1em;
+    padding: 1px;
+    color: white;
+    border-radius: .4em;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.y,.m,.d{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 1em;
+   padding: 5px;
+}
+.child p{
+    /* border: 1px solid rgba(255, 255, 255, 0.397); */
+    margin: 0;
+    font-size: 4em;
+
+}
